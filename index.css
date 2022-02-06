@@ -1,0 +1,113 @@
+/* Styles for website */
+
+/* Header styling */
+#header {
+  background-size: cover;
+  background-position-y: 40%;
+  color: white;
+  background-color: white;
+  position: relative !important;
+}
+
+/* h1 style for city name */
+#header h1 {
+  font-size: 250%;
+  text-align: center;
+  font-weight: bold;
+
+  background-color: #263658;
+  background-image: linear-gradient(315deg, #263658 0%, #456eab 74%);
+}
+
+/*Jumbotron padding and border */
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+  margin-bottom: 1%;
+}
+ul.list-group:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+#uvVal{
+  padding:4px;
+
+}
+
+.list-group-item {
+  float: left;
+  border: 0 !important;
+  margin: 0px;
+  padding: 7px 0px;
+  text-align: center;
+  color: black;
+  background: #0000004a;
+  margin-top: 0.5em;
+}
+
+/* fontawesome magnifying glass icon */
+#search-button-icon {
+  width: 15px;
+  display: inline-block;
+}
+
+/*Current weather padding */
+#current-weather {
+  padding-left: 15px;
+}
+
+/* clear storage below list of cities */
+#clear-storage {
+  color: grey;
+  text-decoration: none;
+  font-size: 0.75em;
+  margin: 0.5em 0em 0em 0.5em;
+}
+
+/* Weather card styling */
+.weather-card {
+  width: 9rem;
+  background-color: #263658;
+  color: white;
+  text-align: center;
+}
+
+/* UV coloring scheme for UV display */
+.uv-favorable {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+}
+
+.uv-moderate {
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+}
+
+.uv-severe {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Media queries */
+@media only screen and (max-width: 992px) {
+  #search-city {
+    width: 100%;
+  }
+  #search-button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #fiveDayForecastUl {
+    justify-content: center;
+  }
+}
+
+#search-button {
+  width: 100% !important;
+}
